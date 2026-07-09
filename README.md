@@ -6,11 +6,6 @@
 [![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)](https://python.langchain.com/docs/langgraph/)
 [![Ragas](https://img.shields.io/badge/Ragas-FF9900?style=flat)](https://github.com/explodinggradients/ragas)
 
-<br/>
-<div align="center">
-  <img src="docs/assets/ui-screenshot.png" alt="StateScout UI" width="800" style="border-radius: 12px; box-shadow: 0 4px 14px 0 rgba(0,0,0,0.39);" />
-</div>
-<br/>
 
 **An autonomous, LangGraph-powered AI agent. Capable of real-time web scraping, semantic chunking, and streaming fully synthesized Markdown reports.**
 
