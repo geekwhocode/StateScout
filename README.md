@@ -20,6 +20,16 @@ StateScout is a production-grade, containerized AI Research platform designed to
 
 ---
 
+## 🖥️ Version 1.0 Interface
+
+<br/>
+<div align="center">
+  <img src="docs/assets/ui-screenshot.png" alt="StateScout UI Version 1" width="800" style="border-radius: 12px; box-shadow: 0 4px 14px 0 rgba(0,0,0,0.39);" />
+</div>
+<br/>
+
+---
+
 ## 🚀 Key Features
 
 - **Autonomous Orchestration:** Utilizes **LangGraph** to manage a multi-actor state machine (Planner, Researcher, Critic, Synthesizer).
