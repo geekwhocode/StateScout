@@ -4,6 +4,10 @@
 
 <br/>
 
+---
+
+<br/>
+
 <div align="center">
   <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/FASTAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
@@ -12,6 +16,10 @@
   <img src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
   <img src="https://img.shields.io/badge/RAGAS-FF9900?style=for-the-badge" alt="Ragas" />
 </div>
+
+---
+
+<br/>
 
 
 **An autonomous, LangGraph-powered AI agent. Capable of real-time web scraping, semantic chunking, and streaming fully synthesized Markdown reports.**
