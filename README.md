@@ -1,9 +1,10 @@
 # StateScout
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://postgresql.org)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)](https://python.langchain.com/docs/langgraph/)
+[![Ragas](https://img.shields.io/badge/Ragas-FF9900?style=flat)](https://github.com/explodinggradients/ragas)
 
 <br/>
 <div align="center">
