@@ -1,6 +1,6 @@
 # Frontend Documentation
 
-The frontend is designed to be a sleek, high-performance interface intended for a "startup portfolio" aesthetic. It leverages modern React paradigms to consume streaming data from the backend dynamically.
+The frontend is designed to be a sleek, high-performance interface with a premium aesthetic. It leverages modern React paradigms to consume streaming data from the backend dynamically.
 
 ## 1. Core Architecture & Styling
 
