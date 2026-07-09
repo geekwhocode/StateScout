@@ -5,6 +5,12 @@
 [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://postgresql.org)
 
+<br/>
+<div align="center">
+  <img src="docs/assets/ui-screenshot.png" alt="StateScout UI" width="800" style="border-radius: 12px; box-shadow: 0 4px 14px 0 rgba(0,0,0,0.39);" />
+</div>
+<br/>
+
 **An autonomous, LangGraph-powered AI agent. Capable of real-time web scraping, semantic chunking, and streaming fully synthesized Markdown reports.**
 
 StateScout is a production-grade, containerized AI Research platform designed to autonomously execute deep-dive research tasks. Given a topic, the agent decomposes the query, searches the web, structurally scrapes documentation, stores it in a vector database, and streams its exact "thought process" back to a modern React UI via Server-Sent Events.
@@ -23,6 +29,28 @@ StateScout is a production-grade, containerized AI Research platform designed to
 ---
 
 ## 🧠 Architecture & Tech Stack
+
+```mermaid
+graph TD
+    A[User UI / React] -->|SSE Stream| B[FastAPI Backend]
+    B --> C{LangGraph Orchestrator}
+    
+    subgraph Agentic Workflow
+    C -->|Decompose| D[Planner Agent]
+    C -->|Scrape HTML| E[Researcher Agent]
+    C -->|Evaluate context| G[Critic Agent]
+    G -->|Needs more| E
+    G -->|Approved| H[Synthesizer Agent]
+    end
+    
+    E -->|Embed Markdown| F[(pgvector Database)]
+    H -->|Final Report| B
+    
+    style A fill:#1E293B,stroke:#6366F1,color:#fff
+    style B fill:#005571,stroke:#00a3cc,color:#fff
+    style C fill:#3b82f6,stroke:#1d4ed8,color:#fff
+    style F fill:#316192,stroke:#ffffff,color:#fff
+```
 
 ### Backend Engine
 - **Framework:** FastAPI running on Uvicorn.
