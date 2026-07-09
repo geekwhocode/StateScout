@@ -1,10 +1,17 @@
-# StateScout
+<div align="center">
+  <img src="docs/assets/hero-banner.png" alt="StateScout" width="100%" />
+</div>
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://postgresql.org)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)](https://www.langchain.com/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)](https://python.langchain.com/docs/langgraph/)
-[![Ragas](https://img.shields.io/badge/Ragas-FF9900?style=flat)](https://github.com/explodinggradients/ragas)
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/FASTAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/POSTGRESQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LANGGRAPH-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/RAGAS-FF9900?style=for-the-badge" alt="Ragas" />
+</div>
 
 
 **An autonomous, LangGraph-powered AI agent. Capable of real-time web scraping, semantic chunking, and streaming fully synthesized Markdown reports.**
